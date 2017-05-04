@@ -14,7 +14,8 @@
 #
 
 proxy_envs() {
-  declare -a proxy_envs=(
+  declare -a proxy_envs
+  proxy_envs=(
     "http_proxy"
     "HTTP_PROXY"
     "https_proxy"
